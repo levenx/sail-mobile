@@ -1,0 +1,28 @@
+.sail-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  &-item__content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 16px 8px;
+    background-color: #fff;
+    &--center {
+      align-items: center;
+      justify-content: center;
+    }
+    &--square {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+  }
+}
+
+.sail-hairline,
+.sail-hairline__top {
+  position: relative;
+}

@@ -1,9 +1,0 @@
-export { default as Button } from './button/index';
-export { default as Table } from './table/index';
-export { default as Switch } from './switch/index';
-export { default as Cell } from './cell/index';
-export { default as CellGroup } from './cell/group';
-export { default as Card } from './card/index';
-export { default as Dialog } from './dialog/index';
-export { default as ActionSheet } from './action-sheet/index';
-export { default as Icon } from './icon/index';

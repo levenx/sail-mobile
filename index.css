@@ -127,3 +127,108 @@
   text-align: center;
   word-wrap: break-word;
 }
+.sail-nav-bar {
+  position: relative;
+  z-index: 1;
+  line-height: 22px;
+  text-align: center;
+  background-color: #fff;
+  user-select: none;
+}
+.sail-nav-bar-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 46px;
+}
+.sail-nav-bar-left,
+.sail-nav-bar-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.sail-nav-bar-center {
+  max-width: 60%;
+  margin: 0 auto;
+  color: #323233;
+  font-weight: 500;
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.sail-nav-bar-right {
+  right: 0;
+}
+.sail-form {
+  display: block;
+  margin-top: 0em;
+}
+.sail-item-label {
+  flex: none;
+  box-sizing: border-box;
+  width: 6.2em;
+  margin-right: 12px;
+  color: #646566;
+  text-align: left;
+  word-wrap: break-word;
+}
+.sail-item-value {
+  overflow: visible;
+  position: relative;
+  overflow: hidden;
+  color: #969799;
+  text-align: right;
+  vertical-align: middle;
+  word-wrap: break-word;
+  flex: 1;
+}
+.sail-tabbar {
+  z-index: 1;
+  display: flex;
+  box-sizing: content-box;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+}
+.sail-tabbar-item {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #646566;
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+}
+.sail-tabbar-item-icon {
+  position: relative;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+.sail-tabbar-fixed {
+  position: fixed;
+  bottom: 0;
+}
+.sail-drawer {
+  position: fixed;
+  max-height: 100%;
+  overflow-y: auto;
+  background-color: #fff;
+  transition: transform 0.3s;
+}
+.sail-drawer__bottom {
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+}

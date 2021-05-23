@@ -3,6 +3,7 @@ import './index.less';
 export interface IButton {
     text?: string;
     children?: ReactNode;
+    htmlFor?: boolean;
     type?: 'primary' | 'disabled';
     size?: 'large' | 'middle' | 'small';
     disabled?: boolean;

@@ -1,15 +1,16 @@
 {
-  "name": "sail-ui",
+  "name": "sail-mobile",
   "version": "1.0.0",
-  "description": "船帆uiui",
-  "main": "lib/umd/sail-ui.js",
-  "module": "lib/esm/sail-ui.js",
+  "description": "船帆ui 移动端组件",
+  "main": "./lib/umd/sail-mobile.js",
+  "module": "./lib/esm/sail-mobile.js",
   "types": "./lib/esm/index.d.ts",
   "scripts": {
     "dev": "rollup -c rollup.config.js -w"
   },
   "keywords": [
-    "react-ui"
+    "react-ui",
+    "sail-mobile"
   ],
   "author": "levenx",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-less": "^1.1.3",
     "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-uglify": "^6.0.4",
     "typescript": "^4.2.4"
   },
   "dependencies": {
@@ -34,6 +36,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "rollup-plugin-clear": "^2.0.7"
   }
 }

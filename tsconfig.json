@@ -15,9 +15,8 @@
       // 指定模块的路径，和baseUrl有关联，和webpack中resolve.alias配置一样
       "src": [
         //指定后可以在文件之直接 import * from 'src';
-        "./src"
-      ],
-      "@fortawesome/react-fontawesome": ["node_modules"]
+        "components"
+      ]
     },
     "target": "ESNext", // 编译的目标是什么版本的
     "outDir": "./lib", // 输出目录
@@ -35,7 +34,7 @@
     ]
   },
   // 指定一个匹配列表（属于自动指定该路径下的所有ts相关文件）
-  "include": ["src/**/*"],
+  "include": ["components/**/*"],
   // 指定一个排除列表（include的反向操作）
   "exclude": ["node_modules", "dist"]
 }

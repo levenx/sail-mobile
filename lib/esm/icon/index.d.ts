@@ -1,5 +1,5 @@
 import { FC, CSSProperties } from 'react';
-declare type IconType = 'check-circle' | 'check-square' | 'right';
+declare type IconType = 'check-circle' | 'check-square' | 'right' | 'left';
 interface IconProps {
     value: IconType;
     color?: string;
