@@ -1,0 +1,57 @@
+.sail-block {
+  display: block;
+}
+
+.sail-cell-group-title {
+  padding-top: 20px;
+  margin: 0;
+  padding: 32px 16px 16px;
+  color: rgba(69, 90, 100, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.sail-cell {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 10px 16px;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+
+  &::after {
+    position: absolute;
+    box-sizing: border-box;
+    content: ' ';
+    pointer-events: none;
+    right: 16px;
+    bottom: 0;
+    left: 16px;
+    border-bottom: 1px solid #ebedf0;
+    transform: scaleY(0.5);
+  }
+
+  &-title {
+    flex: 1;
+  }
+
+  &-value {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    color: #969799;
+    text-align: right;
+    vertical-align: middle;
+    word-wrap: break-word;
+  }
+
+  &-arrow {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+  }
+}
